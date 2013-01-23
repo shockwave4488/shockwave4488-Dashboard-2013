@@ -11,22 +11,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Support" Type="Folder">
-			<Item Name="App EXE.ico" Type="Document" URL="../App EXE.ico"/>
-			<Item Name="Parse Digital Module.vi" Type="VI" URL="../Parse Digital Module.vi"/>
-			<Item Name="Save DB Images.vi" Type="VI" URL="../Save DB Images.vi"/>
-			<Item Name="Receive DS Packet.vi" Type="VI" URL="../Receive DS Packet.vi"/>
-			<Item Name="Decode Status Byte.vi" Type="VI" URL="../Decode Status Byte.vi"/>
-			<Item Name="Draw Simple Skeleton Picture.vi" Type="VI" URL="../Draw Simple Skeleton Picture.vi"/>
-			<Item Name="Build Simple Skeleton Data.vi" Type="VI" URL="../Build Simple Skeleton Data.vi"/>
+		<Item Name="Support" Type="Folder" URL="../Support">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../DStoPCPacketTypeDef.ctl"/>
+		<Item Name="TypeDefs" Type="Folder" URL="../TypeDefs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="TeamCode" Type="Folder" URL="../TeamCode">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
-		<Item Name="BaseColor.vi" Type="VI" URL="../../../shockwave4488-Robot-2013/BaseColor.vi"/>
-		<Item Name="Pretty Colors.vi" Type="VI" URL="../../../../LabVIEW Data/Pretty Colors.vi"/>
-		<Item Name="DrawJoystick.vi" Type="VI" URL="../../../../LabVIEW Data/DrawJoystick.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -266,18 +260,6 @@
 				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
 				<Item Name="Draw Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rectangle.vi"/>
 				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
-				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
-				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
-				<Item Name="Parametric.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Parametric/Parametric.lvclass"/>
-				<Item Name="Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Surface/Surface.lvclass"/>
-				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
-				<Item Name="norm.vi" Type="VI" URL="/&lt;vilib&gt;/express/express 3d picture/SensorConfig.llb/norm.vi"/>
-				<Item Name="LVTextureCoordinateArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVTextureCoordinateArrayTypeDef.ctl"/>
-				<Item Name="LVAttenuationTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAttenuationTypeDef.ctl"/>
-				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
-				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
-				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
-				<Item Name="Line.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Line/Line.lvclass"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -295,15 +277,11 @@
 			<Item Name="ode_single.dll" Type="Document" URL="ode_single.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Processed Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/Processed Data.ctl"/>
-			<Item Name="native norm.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/native norm.vi"/>
-			<Item Name="cross_product.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/cross_product.vi"/>
-			<Item Name="is_index_in_list.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/is_index_in_list.vi"/>
-			<Item Name="coord_conversion.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/coord_conversion.vi"/>
-			<Item Name="find_vertex_min_max.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/find_vertex_min_max.vi"/>
-			<Item Name="make_color_index_array.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/make_color_index_array.vi"/>
-			<Item Name="determine_range_line.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/determine_range_line.vi"/>
-			<Item Name="plot_processed_data.ctl" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/typedefs/plot_processed_data.ctl"/>
+			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../Support/DStoPCPacketTypeDef.ctl"/>
+			<Item Name="Save DB Images.vi" Type="VI" URL="../Save DB Images.vi"/>
+			<Item Name="Receive DS Packet.vi" Type="VI" URL="../Receive DS Packet.vi"/>
+			<Item Name="Decode Status Byte.vi" Type="VI" URL="../Decode Status Byte.vi"/>
+			<Item Name="DrawJoystick.vi" Type="VI" URL="../DrawJoystick.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
@@ -324,7 +302,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/FRC Dashboard Project/FRC PC Dashboard/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/App EXE.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref"></Property>
 				<Property Name="Source[0].itemID" Type="Str">{5E07FFF1-634C-42BF-B61D-AADD37850173}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
