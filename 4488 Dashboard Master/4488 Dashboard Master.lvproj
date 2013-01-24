@@ -260,6 +260,10 @@
 				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
 				<Item Name="Draw Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rectangle.vi"/>
 				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
+				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
+				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
+				<Item Name="Line.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Line/Line.lvclass"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -267,8 +271,6 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get All Users Directory.vi" Type="VI" URL="../Get All Users Directory.vi"/>
-			<Item Name="FPS Calculator.vi" Type="VI" URL="../FPS Calculator.vi"/>
 			<Item Name="LVODE.dll" Type="Document" URL="LVODE.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -277,11 +279,10 @@
 			<Item Name="ode_single.dll" Type="Document" URL="ode_single.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../Support/DStoPCPacketTypeDef.ctl"/>
-			<Item Name="Save DB Images.vi" Type="VI" URL="../Save DB Images.vi"/>
-			<Item Name="Receive DS Packet.vi" Type="VI" URL="../Receive DS Packet.vi"/>
-			<Item Name="Decode Status Byte.vi" Type="VI" URL="../Decode Status Byte.vi"/>
-			<Item Name="DrawJoystick.vi" Type="VI" URL="../DrawJoystick.vi"/>
+			<Item Name="Processed Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/Processed Data.ctl"/>
+			<Item Name="coord_conversion.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/coord_conversion.vi"/>
+			<Item Name="make_color_index_array.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/make_color_index_array.vi"/>
+			<Item Name="find_vertex_min_max.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/find_vertex_min_max.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
